@@ -1,0 +1,28 @@
+
+#panel, #flip {
+  /*
+  padding: 5px;
+  text-align: center;
+  */
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+
+#formulariodelivery {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+#logo {
+  font-size: clamp(1em, 1.5rem, 30rem);
+}
+
+.slide {
+  font-size: clamp(.75rem, 1.5rem, 3rem);
+  padding: .5em;
+}
+

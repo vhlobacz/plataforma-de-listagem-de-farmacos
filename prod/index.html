@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+  <!--Import materialize.css-->
+  <!--link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" /-->
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/style/index.css">
+  <link rel="stylesheet" href="assets/style/style.css">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body class="cyan lighten-5">
+  <!--NAVBAR-->
+  <nav>
+    <div class="nav-wrapper z-depth-1">
+      <div class="container">
+        <a href="#!" id="logo" class="brand-logo">Farma Seu Tico</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <button data-target="modal1" class="btn modal-trigger center ">Reclame Aqui</button>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Mas o que é isso?</h4>
+        <p>Você não pode reclamar, esta farmacia é perfeita!!!</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Me Desculpe</a>
+      </div>
+    </div>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#modal1">Reclame aqui</a></li>
+  </ul>
+  <!--FIM DA NAVBAR-->
+
+
+    <div id="flip" class="slide blue-grey lighten-3 center">A paz, o equilíbrio e o autocontrole vêm de dentro <i
+        class="tiny material-icons">keyboard_arrow_down</i></div>
+    <div id="panel" class="slide blue-grey lighten-3 center">De dentro da farmácia</div>
+
+
+
+
+
+
+
+  <!--PRODUTOS-->
+
+    <div class="container">
+      <h4 class="center">Produtos</h4>
+      <div class="row">
+        <div class="col s12 m6 l3 ">
+          <div class="card">
+            <div class="card-image ">
+              <img src="https://res.cloudinary.com/dmel8lve4/image/upload/v1739390791/dipirona-monoidratada_qt8vgr.jpg">
+              <span class="card-title black-text teal lighten-4">Dipirona</span>
+            </div>
+            <div class="card-content ">
+              <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action ">
+              <a class="btn " href="#">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l3 ">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://res.cloudinary.com/dmel8lve4/image/upload/v1739390791/omeprazol_nvzpcy.webp">
+              <span class="card-title black-text teal lighten-4">Omeprazol</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a class="btn" href="#">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l3 ">
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="https://res.cloudinary.com/dmel8lve4/image/upload/v1739390791/loratamed_10mg_com_12_comprimidos_vvxh0o.jpg">
+              <span class="card-title black-text teal lighten-4">Loratamed</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a class="btn" href="#">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l3 ">
+          <div class="card g">
+            <div class="card-image">
+              <img src="https://res.cloudinary.com/dmel8lve4/image/upload/v1739391776/merthiolate-1-0-30-ml_1_sealv1.jpg">
+              <span class="card-title black-text teal lighten-4">Merthiolate</span>
+            </div>
+            <div class="card-content">
+              <p class>I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a class="btn" href="#">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!--FIM PRODUTOS-->
+
+  <!--FORMULARIO
+  
+
+  <div class="container">
+    <h3 class="center">Formulário para entrega</h3>
+    <div class="row">
+      <form id="form" class="col s12">
+        <div class="row">
+
+          <div class="input-field col s12 m6 ">
+            <input id="cep" type="text" class="required" maxlength="8" oninput="validarCep()">
+            <label for="CEP">CEP</label>
+          </div>
+
+          <div class="input-field col s12 m6">
+            <input id="Logradouro" type="text" class="required">
+            <label for="Logradouro">Logradouro</label>
+          </div>
+
+          <div class="input-field col s12 m4">
+            <input id="Número" type="text" class="required" oninput="verificarNumero()">
+            <label for="Número">Número</label>
+          </div>
+
+          <div class="input-field col s12 m4">
+            <input id="Complemento" type="text" class="required">
+            <label for="Complemento">Complemento</label>
+          </div>
+
+          <div class="input-field col s12 m4">
+            <input id="Bairro" type="text" class="required">
+            <label for="Bairro">Bairro</label>
+          </div>
+
+
+
+      </form>
+    </div>
+
+
+
+
+
+
+
+
+
+    <form action="#">
+      <p>
+        <label>
+          <input class="with-gap" name="group1" type="radio" />
+          <span>Dinheiro</span>
+        </label>
+      </p>
+      <p>
+        <label>
+          <input class="with-gap" name="group1" type="radio" />
+          <span>Pix</span>
+        </label>
+      </p>
+      <p>
+        <label>
+          <input class="with-gap" name="group1" type="radio" />
+          <span>Crédito</span>
+        </label>
+      </p>
+      <p>
+        <label>
+          <input class="with-gap" name="group1" type="radio" />
+          <span>Débito</span>
+        </label>
+      </p>
+    </form>
+
+
+
+
+
+  </div>
+-->
+
+
+   <!-- Inicio do formulario -->
+  <div>
+    <div class="container white" id="formulariodelivery">
+      <h4 class="center">Cadastre seus endereços</h4>
+      <form>
+        <label>Cep:
+          <input   itemid="cep" class="cep" name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+            onblur="pesquisacep(this.value);" /></label><br />
+        <label>Rua:
+          <input readonly name="rua" type="text" id="rua" size="60" /></label><br />
+        <label>Numero:
+          <input name="numero" type="text" id="numero" size="6" /></label><br />
+        <label>Bairro:
+          <input readonly name="bairro" type="text" id="bairro" size="40" /></label><br />
+        <label>Cidade:
+          <input readonly name="cidade" type="text" id="cidade" size="40" /></label><br />
+        <label>Estado:
+          <input readonly name="uf" type="text" id="uf" size="2" /></label><br />
+        <p>
+          <label>
+            <input id="" class="with-gap" name="pagamento" value="dinheiro" type="radio" />
+            <span>Dinheiro</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input class="with-gap" name="pagamento" value="pix" type="radio" />
+            <span>Pix</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input class="with-gap" name="pagamento" value="credito" type="radio" />
+            <span>Crédito</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input class="with-gap" name="pagamento" value="debito" type="radio" />
+            <span>Débito</span>
+          </label>
+        </p>
+        <button class="btn center" type="button" onclick="cadastrarEndereco()">Cadastrar</button>
+      </form>
+    </div>
+  </div>
+  <!-- FIM do formulario -->
+
+  <div class="container">
+    <h4>MEUS CADASTROS</h4>
+    <div id="listaDeEnderecos">
+      <div>
+        <!--<button>remover</button>
+        <SPAN>12345678</SPAN>-->
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- FOOTER -->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+
+        <h5 class="white-text center">Farma Seu Tico</h5>
+
+
+
+      </div>
+    </div>
+    <div class="footer-copyright center">
+      <div class="container">
+        © 2025 Todos os Direitos Reservados
+      </div>
+    </div>
+  </footer>
+  <!-- FIM DO FOOTER -->
+   
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!--script src="https://code.jquery.com/jquery-2.1.1.min.js"></script-->
+
+  <!--JavaScript at end of body for optimized loading-->
+  <!--script type="text/javascript" src="js/materialize.min.js"></script -->
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script src="assets/js/script.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js" integrity="sha512-0XDfGxFliYJPFrideYOoxdgNIvrwGTLnmK20xZbCAvPfLGQMzHUsaqZK8ZoH+luXGRxTrS46+Aq400nCnAT0/w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="assets/js/mask.js"></script>
+
+</body>
+
+</html>
