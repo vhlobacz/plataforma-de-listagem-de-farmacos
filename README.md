@@ -16,7 +16,7 @@ https://www.figma.com/design/QvmPE6dQ9IFJ3jyN0L2FhB/prototipacao-de-tela-platafo
 materializecss, jQuery, SasS
 
 # Link para o site em produção
-URL para acessar o site publicado no GitHub Pages.
+https://vhlobacz.github.io/plataforma-de-listagem-de-farmacos/prod/
 
 # Checklist de Funcionalidades 
 RA1 - Utilizar Frameworks CSS para estilização de elementos HTML e criação de layouts responsivos.
