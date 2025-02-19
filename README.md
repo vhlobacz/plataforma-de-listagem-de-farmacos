@@ -43,3 +43,16 @@ RA4 - Aplicar bibliotecas de funções e componentes em JavaScript para aprimora
 - (X) ID 21 - Seleciona e integra com sucesso um plugin jQuery, como o jQuery Mask Plugin ou outro plugin relevante para o projeto, a fim de melhorar a funcionalidade ou a aparência de elementos específicos em uma página web. 
 RA5 - Efetuar requisições assíncronas para uma API fake e APIs públicas, permitindo a obtenção e manipulação de dados dinamicamente.
 - (X) ID 24 - Realiza requisições assíncronas para APIs públicas, utilizando adequadamente conceitos como AJAX, Fetch API ou bibliotecas, para obter dados dinâmicos e a exibição dos resultados na página web.
+
+# Telas da aplicação
+![FOTO 1](https://github.com/user-attachments/assets/8d2fef59-2729-4e8c-9303-47d439370e02)
+![FOTO 2](https://github.com/user-attachments/assets/2f7fc288-3b35-49cf-bba6-73c8a7f6fbee)
+
+# Demonstração da API Via CEP através de um formulário
+![FOTO 3](https://github.com/user-attachments/assets/9ffea7e4-7912-4525-a690-f3e00d8c992d)
+
+# Demonstração dos dados cadastrados no Local Storage
+![FOTO 4](https://github.com/user-attachments/assets/0170b7e5-0db7-40a0-847d-6ba275632feb)
+
+
+
